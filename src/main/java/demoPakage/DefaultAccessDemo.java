@@ -11,7 +11,7 @@ public class DefaultAccessDemo
     }
     public static void main(String [] args)
     {
-        //StrReverse str1 =new StrReverse();
+        //MainPackage.PractJavaProg.StrReverse str1 =new MainPackage.PractJavaProg.StrReverse();
         //str1.str;
 
     }
