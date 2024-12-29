@@ -33,7 +33,7 @@ public class ValidName
 
                 char [] ch =s.toCharArray();
                 for(char c : ch) {
-                    if ((Character.isAlphabetic(c) || Character.isDigit(c))) {
+                    if (Character.isAlphabetic(c) || Character.isDigit(c)) {
                         valid = true;
                     }
                     else {

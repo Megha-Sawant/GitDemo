@@ -28,6 +28,8 @@ public class Assignment2
         //gender.findElement(By.xpath("//select[@id='exampleFormControlSelect1']/option[2]")).click();
         Select dropdown = new Select(gender);
         dropdown.selectByVisibleText("Female");
+        //dropdown.selectByIndex(0);
+        //dropdown.selectByValue("abc");
         
         driver.findElement(By.cssSelector("input[id='inlineRadio1']")).click();
         driver.findElement(By.cssSelector("input[name='bday']")).sendKeys("05-03-1991");

@@ -17,7 +17,7 @@ public class BubbleSort
                 if(a[j]>a[j+1])
                 {
                     temp=a[j];
-                    a[i]=a[j+1];
+                    a[j]=a[j+1];
                     a[j+1]=temp;
 
                 }

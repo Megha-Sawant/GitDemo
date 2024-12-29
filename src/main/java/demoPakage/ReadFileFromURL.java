@@ -22,6 +22,7 @@ public class ReadFileFromURL
         {
             System.out.println(line);
             line=  br.readLine();
+
         }
 
 

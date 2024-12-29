@@ -7,10 +7,11 @@ public class StringNumeric_Assignment {
         String s = "prince123";
         int sum = 0;
         char c[] = s.toCharArray();
-        ArrayList<Integer> a = new ArrayList<Integer>();
+        ArrayList<Integer> a = new ArrayList<>();
 
         for (char ch : c) {
             if (Character.isDigit(ch)) {
+
 
                 int c1 = Character.getNumericValue(ch);
                 a.add(c1);

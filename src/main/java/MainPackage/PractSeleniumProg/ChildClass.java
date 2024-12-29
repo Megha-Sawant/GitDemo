@@ -22,11 +22,11 @@ public class ChildClass extends BaseClass {
 
         System.out.println(B.a); //Parent Class Variable Value
         System.out.println(C.a); //Child Class variable value
-        System.out.println(B1.a); // parent class variable value
+        System.out.println(B1.a); // parent class variable value -This is because Java uses the reference type for accessing members (not the object type)
 
         B.getData("OverloadingExample");//Parent Class Function executed
         C.getData("OverloadingExample");//Child Class function executed
-        B1.getData("OverloadingExample");//Parent Class Function executed
+        B1.getData("OverloadingExample");//Child Class Function executed
 
     }
 }
