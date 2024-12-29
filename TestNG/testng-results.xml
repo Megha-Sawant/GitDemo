@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-10-20T16:04:22 IST" name="All Test Suite" finished-at="2024-10-20T16:04:39 IST" duration-ms="17620">
+    <groups>
+      <group name="ErrorsValidations">
+        <method signature="ErrorValidationTest.errorValidationCartPage()[pri:0, instance:PractProjModule1.TestComponent.ErrorValidationTest@74ea2410]" name="errorValidationCartPage" class="PractProjModule1.TestComponent.ErrorValidationTest"/>
+        <method signature="ErrorValidationTest.errorValidationLoginPg()[pri:0, instance:PractProjModule1.TestComponent.ErrorValidationTest@74ea2410]" name="errorValidationLoginPg" class="PractProjModule1.TestComponent.ErrorValidationTest"/>
+      </group> <!-- ErrorsValidations -->
+    </groups>
+    <test started-at="2024-10-20T16:04:22 IST" name="C:/Megha/FrameWorkPract_1" finished-at="2024-10-20T16:04:39 IST" duration-ms="17620">
+      <class name="PractProjModule1.TestComponent.ErrorValidationTest">
+        <test-method is-config="true" signature="initializeDriver()[pri:0, instance:PractProjModule1.TestComponent.ErrorValidationTest@74ea2410]" started-at="2024-10-20T16:04:22 IST" name="initializeDriver" finished-at="2024-10-20T16:04:25 IST" duration-ms="2985" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeDriver -->
+        <test-method is-config="true" signature="loginApplication()[pri:0, instance:PractProjModule1.TestComponent.ErrorValidationTest@74ea2410]" started-at="2024-10-20T16:04:25 IST" name="loginApplication" finished-at="2024-10-20T16:04:29 IST" duration-ms="4488" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginApplication -->
+        <test-method signature="errorValidationLoginPg()[pri:0, instance:PractProjModule1.TestComponent.ErrorValidationTest@74ea2410]" started-at="2024-10-20T16:04:29 IST" name="errorValidationLoginPg" finished-at="2024-10-20T16:04:30 IST" duration-ms="613" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- errorValidationLoginPg -->
+        <test-method is-config="true" signature="closeDiver()[pri:0, instance:PractProjModule1.TestComponent.ErrorValidationTest@74ea2410]" started-at="2024-10-20T16:04:30 IST" name="closeDiver" finished-at="2024-10-20T16:04:30 IST" duration-ms="262" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeDiver -->
+        <test-method is-config="true" signature="loginApplication()[pri:0, instance:PractProjModule1.TestComponent.ErrorValidationTest@74ea2410]" started-at="2024-10-20T16:04:30 IST" name="loginApplication" finished-at="2024-10-20T16:04:33 IST" duration-ms="2430" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginApplication -->
+        <test-method signature="errorValidationCartPage()[pri:0, instance:PractProjModule1.TestComponent.ErrorValidationTest@74ea2410]" started-at="2024-10-20T16:04:33 IST" name="errorValidationCartPage" finished-at="2024-10-20T16:04:39 IST" duration-ms="6241" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- errorValidationCartPage -->
+        <test-method is-config="true" signature="closeDiver()[pri:0, instance:PractProjModule1.TestComponent.ErrorValidationTest@74ea2410]" started-at="2024-10-20T16:04:39 IST" name="closeDiver" finished-at="2024-10-20T16:04:39 IST" duration-ms="534" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeDiver -->
+      </class> <!-- PractProjModule1.TestComponent.ErrorValidationTest -->
+    </test> <!-- C:/Megha/FrameWorkPract_1 -->
+  </suite> <!-- All Test Suite -->
+</testng-results>

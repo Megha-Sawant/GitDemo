@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite parallel="false" name="Suite">
+<!--    <groups>-->
+<!--    <run>-->
+<!--   <include name="ErrorsValidations"/>-->
+<!--    </run>-->
+<!--    </groups>-->
+    <listeners>
+        <listener class-name="PractProjModule1.TestComponent.Listeners"/>
+    </listeners>
+    <test  name="C:/Megha/FrameWorkPract_1">
+        <classes><class name="PractProjModule1.TestComponent.ErrorValidationTest">
+            <methods>
+                <include name="errorValidationLoginPg"/>
+                <include name="errorValidationCartPage"/>
+            </methods>
+        </class>
+            <class name="PractProjModule1.TestComponent.ecomPageCart">
+                <methods>
+                    <include name="submitOrder"/>
+                    <include name="orderHistoryTest"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
